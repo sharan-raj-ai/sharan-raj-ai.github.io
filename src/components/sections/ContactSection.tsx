@@ -31,7 +31,8 @@ export default function ContactSection() {
             if (!response.ok) {
                 const errorData = await response.json().catch(() => ({}));
                 console.error("Worker Error details:", errorData);
-                throw new Error(errorData.error || "Failed to send email");
+                const errorMessage = errorData.details || errorData.error || "Failed to send email";
+                throw new Error(errorMessage);
             }
 
             setButtonText("Sent!");
