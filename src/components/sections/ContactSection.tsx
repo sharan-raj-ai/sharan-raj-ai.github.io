@@ -55,8 +55,8 @@ export default function ContactSection() {
     };
 
     return (
-        <div className="px-[15%]">
-            <section id="contact" className="relative z-10 w-full bg-card text-foreground overflow-hidden rounded-t-[4rem] rounded-b-[4rem]">
+        <div className="px-4 sm:px-8 md:px-[10%] lg:px-[15%]">
+            <section id="contact" className="relative z-10 w-full bg-card text-foreground overflow-hidden rounded-2xl sm:rounded-3xl md:rounded-[4rem]">
                 {/* Premium gradient overlay */}
                 <div className="absolute inset-0 bg-gradient-to-br from-card via-card to-neutral-900 opacity-90" />
 
@@ -81,7 +81,7 @@ export default function ContactSection() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: 0.1 }}
-                            className="text-6xl md:text-8xl lg:text-9xl font-serif font-light mb-6 leading-none"
+                            className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-serif font-light mb-6 leading-tight"
                         >
                             Let's Build <br />
                             <span className="italic text-accent">Something Great</span>
@@ -92,7 +92,7 @@ export default function ContactSection() {
                             whileInView={{ opacity: 1 }}
                             viewport={{ once: true }}
                             transition={{ delay: 0.2 }}
-                            className="text-lg text-foreground/60 max-w-2xl mx-auto"
+                            className="text-base sm:text-lg text-foreground/60 max-w-2xl mx-auto px-2"
                         >
                             Whether you need AI integration, custom ML models, or technical consultation. I'm here to help transform your ideas into reality.
                         </motion.p>
