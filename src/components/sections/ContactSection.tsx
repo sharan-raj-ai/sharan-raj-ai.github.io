@@ -55,7 +55,7 @@ export default function ContactSection() {
     };
 
     return (
-        <div className="px-4 sm:px-8 md:px-[10%] lg:px-[15%]">
+        <div className="px-2 sm:px-6 md:px-[10%] lg:px-[15%]">
             <section id="contact" className="relative z-10 w-full bg-card text-foreground overflow-hidden rounded-2xl sm:rounded-3xl md:rounded-[4rem]">
                 {/* Premium gradient overlay */}
                 <div className="absolute inset-0 bg-gradient-to-br from-card via-card to-neutral-900 opacity-90" />
