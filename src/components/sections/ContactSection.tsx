@@ -1,14 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useState, useRef } from "react";
-import emailjs from "@emailjs/browser";
+import { useState } from "react";
 
 export default function ContactSection() {
     const [formState, setFormState] = useState({ name: "", email: "", message: "" });
     const [buttonText, setButtonText] = useState("Send Message");
     const [isSending, setIsSending] = useState(false);
-    const formRef = useRef<HTMLFormElement>(null);
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
@@ -22,12 +20,17 @@ export default function ContactSection() {
         setButtonText("Sending...");
 
         try {
-            await emailjs.sendForm(
-                process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
-                process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
-                formRef.current!,
-                process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
-            );
+            const response = await fetch("https://dry-brook-5856.sharanrajvk2003.workers.dev/send-email", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(formState),
+            });
+
+            if (!response.ok) {
+                throw new Error("Failed to send email");
+            }
 
             setButtonText("Sent!");
             setFormState({ name: "", email: "", message: "" });
@@ -38,7 +41,7 @@ export default function ContactSection() {
             }, 3000);
         } catch (error) {
             setButtonText("Failed - Try Again");
-            console.error("EmailJS Error:", error);
+            console.error("Submission Error:", error);
 
             setTimeout(() => {
                 setButtonText("Send Message");
@@ -100,7 +103,7 @@ export default function ContactSection() {
                         transition={{ delay: 0.3 }}
                         className="max-w-3xl mx-auto"
                     >
-                        <form ref={formRef} onSubmit={handleSubmit} className="space-y-8">
+                        <form onSubmit={handleSubmit} className="space-y-8">
                             {/* Name & Email Row */}
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div className="group">
