@@ -106,14 +106,6 @@ html.lenis body {
   pointer-events: none;
 }
 
-/* Input Autofill Fix */
-input:-webkit-autofill,
-textarea:-webkit-autofill {
-  -webkit-text-fill-color: var(--foreground) !important;
-  -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
-  transition: background-color 5000s ease-in-out 0s !important;
-}
-
 /* ==========================================
    Premium Card Effects - Carbon Fiber Shimmer
    ========================================== */
@@ -216,4 +208,23 @@ textarea:-webkit-autofill {
       rgba(255, 255, 255, 0.2) 50%,
       transparent 100%);
   pointer-events: none;
+}
+
+/* 
+   ULTIMATE AUTOFILL OVERRIDE 
+   Forces the browser to respect the dark theme even when autofilling.
+   This uses a box-shadow hack to cover the browser's default background.
+*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0px 1000px #1C1C1C inset !important;
+  -webkit-text-fill-color: #F5F5F5 !important;
+  transition: background-color 5000s ease-in-out 0s !important;
+  caret-color: #F5F5F5 !important;
 }
