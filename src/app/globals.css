@@ -106,6 +106,14 @@ html.lenis body {
   pointer-events: none;
 }
 
+/* Input Autofill Fix */
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+  -webkit-text-fill-color: var(--foreground) !important;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+  transition: background-color 5000s ease-in-out 0s !important;
+}
+
 /* ==========================================
    Premium Card Effects - Carbon Fiber Shimmer
    ========================================== */
