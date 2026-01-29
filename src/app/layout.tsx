@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "YOUR_GOOGLE_VERIFICATION_CODE", // Replace after Google Search Console setup
+    google: "3p-ZzvE8CalrF6kBIxC7S_SLHzB1Ob-7X7bUayUyy0U", // Replace after Google Search Console setup
   },
 };
 
