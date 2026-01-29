@@ -1,0 +1,12 @@
+# Robots.txt for Sharan Raj VK Portfolio
+# https://sharan-raj-ai.github.io
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://sharan-raj-ai.github.io/sitemap.xml
+
+# Block crawlers from accessing non-essential paths
+Disallow: /_next/static/
+Disallow: /api/
