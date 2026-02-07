@@ -11,7 +11,7 @@ const experiences = [
     role: "AI Software Engineer",
     company: "*astTECS Unified Communication PVT LTD",
     period: "Nov 2024 - Present",
-    desc: "Developing cutting-edge AI solutions for unified communication platforms, implementing machine learning models.",
+    desc: "Architected production-grade multi-language voicebot handling 90 concurrent calls, achieving 40-50% workforce reduction. Pioneered India's first MCP server integration with IP-PBX for agentic AI announcements. Built production LangChain agents as the brain for multiple systems, collaborating with the telephony team to integrate with SIP servers. Deployed self-hosted Langfuse for observability and evaluation of agentic systems with per-call traces.",
     quote: "Innovation distinguishes between a leader and a follower."
   },
   {
@@ -19,7 +19,7 @@ const experiences = [
     role: "AI Trainer",
     company: "Sambhav Foundation",
     period: "Aug 2024 - Nov 2024",
-    desc: "Mentored and trained individuals in AI and machine learning concepts, designed comprehensive curriculum.",
+    desc: "Designed comprehensive AI/ML curriculum and mentored aspiring engineers. Translated complex neural network concepts into accessible learning experiences that empowered the next generation of AI practitioners.",
     quote: "Teaching is the one profession that creates all other professions."
   },
   {
@@ -27,7 +27,7 @@ const experiences = [
     role: "AI Internship",
     company: "Codsoft",
     period: "Aug 2023 - Sep 2023",
-    desc: "Gained foundational experience in artificial intelligence and machine learning through practical projects.",
+    desc: "Built foundational ML projects including classification models and data pipelines. First exposure to production deployment workflows and collaborative software development practices.",
     quote: "Every expert was once a beginner."
   }
 ];

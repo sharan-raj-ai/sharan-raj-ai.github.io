@@ -12,7 +12,9 @@ import SectionNavigator from "@/components/ui/SectionNavigator";
 // AI Sections
 import HeroAI from "@/components/sections/HeroAI";
 import QuoteSection from "@/components/sections/QuoteSection";
+import EducationSection from "@/components/sections/EducationSection";
 import HorizontalExperience from "@/components/sections/HorizontalExperience";
+import AchievementsSection from "@/components/sections/AchievementsSection";
 import SkillsSection from "@/components/sections/SkillsSection";
 import ContactSection from "@/components/sections/ContactSection";
 // import SignatureFooter from "@/components/ui/SignatureFooter";
@@ -36,17 +38,23 @@ export default function Home() {
         <QuoteSection />
       </div>
 
-      {/* Horizontal Experience Section - Diagonal Staircase */}
+      {/* Education Section - The Foundation */}
+      <EducationSection />
+
+      {/* Horizontal Experience Section - The Journey */}
       <div id="experience">
         <HorizontalExperience />
       </div>
 
-      {/* Skills Section */}
+      {/* Achievements Section - The Impact */}
+      <AchievementsSection />
+
+      {/* Skills Section - The Arsenal */}
       <div id="skills">
         <SkillsSection />
       </div>
 
-      {/* Gallery */}
+      {/* Projects Gallery - The Proof */}
       <section id="projects" className="relative z-10 px-4 md:px-8 lg:px-20 mb-32 pt-24 bg-background">
         <h3 className="text-sm font-medium tracking-[0.2em] text-accent mb-12 uppercase text-center md:text-left">
           Selected Works

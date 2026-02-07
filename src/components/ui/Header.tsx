@@ -14,8 +14,9 @@ export default function Header() {
     }, []);
 
     const menuItems = [
-        { label: "About", href: "#about" },
+        { label: "Education", href: "#education" },
         { label: "Experience", href: "#experience" },
+        { label: "Impact", href: "#achievements" },
         { label: "Skills", href: "#skills" },
         { label: "Projects", href: "#projects" },
         { label: "Contact", href: "#contact" },

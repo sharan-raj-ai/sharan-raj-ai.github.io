@@ -117,7 +117,7 @@ export default function HeroAI() {
                     </a>
 
                     <a
-                        href="https://github.com/Sai-sharann"
+                        href="https://github.com/sharan-raj-ai"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group flex items-center gap-2 px-6 py-3 bg-card border border-accent/20 hover:border-accent/50 rounded-full transition-all duration-300 hover:scale-105"
