@@ -142,7 +142,7 @@ export default function OrbitalFooter() {
                     </a>
                     <div className="w-1 h-1 rounded-full bg-accent/30" />
                     <a
-                        href="https://github.com/Sai-sharann"
+                        href="https://github.com/sharan-raj-ai"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-foreground/30 hover:text-accent transition-colors duration-300 text-xs tracking-wider uppercase"

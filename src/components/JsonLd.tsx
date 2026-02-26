@@ -15,7 +15,7 @@ export default function JsonLd() {
         },
         "sameAs": [
             "https://www.linkedin.com/in/sharan-raj-vk",
-            "https://github.com/Sai-sharann"
+            "https://github.com/sharan-raj-ai"
         ],
         "knowsAbout": [
             "Artificial Intelligence",

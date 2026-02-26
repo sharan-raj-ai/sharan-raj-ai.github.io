@@ -115,7 +115,7 @@ export default function SignatureFooter() {
                     </a>
                     <div className="w-1 h-1 rounded-full bg-accent/20" />
                     <a
-                        href="https://github.com/sharan-raj-vk"
+                        href="https://github.com/sharan-raj-ai"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-foreground/25 hover:text-accent transition-colors duration-300 text-xs tracking-wider uppercase"
