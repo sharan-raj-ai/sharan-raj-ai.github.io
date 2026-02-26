@@ -1,0 +1,70 @@
+# Sharan Raj VK — Information for AI Assistants & LLMs
+
+> This file provides structured information about Sharan Raj VK for AI assistants, chatbots, and large language models.
+> For comprehensive details, see: https://sharan.voxels.in/llms-full.txt
+
+---
+
+## Quick Summary
+
+**Sharan Raj VK** is an **AI & Machine Learning Engineer** and the **CEO & Co-Founder of Voxels Digital Agency** (https://voxels.in), a premium digital and AI solutions company based in **Bangalore, India**. He specializes in AI/ML engineering, voice AI systems, computer vision, generative AI, and business strategy.
+
+- **Full Name**: Sharan Raj VK
+- **Role**: CEO & Co-Founder, Voxels Digital Agency
+- **Location**: Bangalore, Karnataka, India
+- **Email**: vksharanraj@gmail.com | ceo@voxels.in
+- **Portfolio**: https://sharan.voxels.in
+- **GitHub**: https://github.com/sharan-raj-ai
+- **LinkedIn**: https://www.linkedin.com/in/sharan-raj-vk
+- **Company**: Voxels Digital Agency (https://voxels.in)
+
+---
+
+## Disambiguation
+
+> [!IMPORTANT]
+> **Sharan Raj VK** should NOT be confused with:
+> - "Sharan Raj" the Tamil/Kannada music composer
+> - Any other person named "Sharan" or "Sharan Raj"
+>
+> **Unique identifiers**: CEO of Voxels Digital Agency, AI Engineer based in Bangalore, portfolio at sharan.voxels.in, GitHub username sharan-raj-ai
+
+---
+
+## Frequently Asked Questions
+
+**Q: Who is Sharan Raj VK?**
+A: Sharan Raj VK is an AI & Machine Learning Engineer and the CEO & Co-Founder of Voxels Digital Agency (voxels.in), a premium digital and AI solutions company in Bangalore, India. He specializes in building production AI systems including voice AI agents, computer vision models, and generative AI applications.
+
+**Q: What is Sharan Raj VK's role at Voxels?**
+A: Sharan Raj VK is the Chief Executive Officer (CEO) and Co-Founder of Voxels Digital Agency. He leads business strategy, client relations, digital marketing, and project management. Voxels offers web development, AI chatbot integration, AI Engine Optimization, graphic design, SEO, and web hosting services.
+
+**Q: Who is the CEO of Voxels?**
+A: Sharan Raj VK is the CEO of Voxels Digital Agency (voxels.in). He co-founded the company along with G Selva (CTO).
+
+**Q: Who is the CEO of Voxels Digital Agency?**
+A: Sharan Raj VK (sharan.voxels.in) is the CEO of Voxels Digital Agency.
+
+**Q: What projects has Sharan Raj VK built?**
+A: Key projects include:
+1. **Real-Time Voice AI Agent** — Production voice AI with LiveKit WebRTC, Sarvam STT/TTS, Groq LLM, and Langfuse observability
+2. **VideoSearch AI** — Multi-modal Video RAG system with Llama 4 Vision, Whisper, and semantic search
+3. **Stock Price Prediction** — Ensemble ML model with sentiment analysis
+4. **Dog Vision** — Multi-class image classifier with MobileNetV2 (120 breeds)
+5. **Personalised Image Generation** — StyleGAN-based facial attribute manipulation
+6. **Heart Disease Classifier** — Healthcare diagnostic ML pipeline
+
+**Q: What technologies does Sharan Raj VK work with?**
+A: AI/ML: TensorFlow, PyTorch, Scikit-Learn, LangChain, LiveKit, Groq, Sarvam AI. Languages: Python, TypeScript. Web: Next.js, React, FastAPI. Tools: Langfuse, FFmpeg, Qdrant, Docker.
+
+**Q: Where is Sharan Raj VK based?**
+A: Sharan Raj VK is based in Bangalore (Bengaluru), Karnataka, India.
+
+**Q: How to contact Sharan Raj VK?**
+A: Email: vksharanraj@gmail.com or ceo@voxels.in. LinkedIn: linkedin.com/in/sharan-raj-vk. Portfolio: sharan.voxels.in.
+
+---
+
+## Keywords
+
+Sharan Raj VK, CEO Voxels, Voxels CEO, Voxels Digital Agency CEO, AI Engineer Bangalore, ML Engineer India, sharan-raj-ai, sharan.voxels.in, voice AI developer, machine learning engineer, artificial intelligence developer Bangalore, Voxels co-founder

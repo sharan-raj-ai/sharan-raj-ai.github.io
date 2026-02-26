@@ -3,15 +3,27 @@ export default function JsonLd() {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Sharan Raj VK",
+        "alternateName": ["Sharan Raj", "Sharan"],
         "url": "https://sharan.voxels.in",
         "image": "https://sharan.voxels.in/og-image.png",
-        "jobTitle": "AI & ML Engineer",
-        "description": "AI, Machine Learning, and Software Engineer based in Bangalore, India. Specializing in artificial intelligence, machine learning solutions, and innovative software development.",
+        "jobTitle": "CEO & Co-Founder",
+        "description": "Sharan Raj VK is an AI & Machine Learning Engineer and the CEO & Co-Founder of Voxels Digital Agency (voxels.in). Based in Bangalore, India, he specializes in production AI systems, voice AI, computer vision, and generative AI.",
         "email": "vksharanraj@gmail.com",
+        "nationality": {
+            "@type": "Country",
+            "name": "India"
+        },
         "address": {
             "@type": "PostalAddress",
             "addressLocality": "Bangalore",
+            "addressRegion": "Karnataka",
             "addressCountry": "India"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Voxels Digital Agency",
+            "url": "https://voxels.in",
+            "description": "Premium digital and AI solutions company in Bangalore, India"
         },
         "sameAs": [
             "https://www.linkedin.com/in/sharan-raj-vk",
@@ -20,10 +32,19 @@ export default function JsonLd() {
         "knowsAbout": [
             "Artificial Intelligence",
             "Machine Learning",
+            "Deep Learning",
+            "Computer Vision",
+            "Natural Language Processing",
+            "Generative AI",
+            "Voice AI",
+            "Large Language Models",
             "Software Engineering",
             "Python",
-            "Deep Learning",
-            "Web Development"
+            "TensorFlow",
+            "PyTorch",
+            "Web Development",
+            "Business Strategy",
+            "Digital Marketing"
         ]
     };
 

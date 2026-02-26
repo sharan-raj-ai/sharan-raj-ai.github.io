@@ -10,3 +10,29 @@ Sitemap: https://sharan.voxels.in/sitemap.xml
 # Block crawlers from accessing non-essential paths
 Disallow: /_next/static/
 Disallow: /api/
+
+# AI & LLM Crawler Access — Explicitly allow AI bots
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# AI-readable content files
+# llms.txt: https://sharan.voxels.in/llms.txt
+# llms-full.txt: https://sharan.voxels.in/llms-full.txt

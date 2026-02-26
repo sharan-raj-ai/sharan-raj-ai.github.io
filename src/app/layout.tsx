@@ -18,8 +18,8 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: "Sharan Raj VK | AI & ML Engineer Portfolio",
-  description: "Sharan Raj VK's professional portfolio showcasing AI, Machine Learning, and Software Engineering projects. Based in Bangalore, India. Explore my work in artificial intelligence, software development, and innovative tech solutions.",
-  keywords: ["Sharan Raj VK", "Sharan portfolio", "AI Engineer", "ML Engineer", "Software Engineer", "Bangalore developer", "Machine Learning portfolio", "Artificial Intelligence developer", "Sharan Raj"],
+  description: "Sharan Raj VK — AI & Machine Learning Engineer and CEO of Voxels Digital Agency (voxels.in). Professional portfolio showcasing AI, ML, voice AI, and software engineering projects. Based in Bangalore, India.",
+  keywords: ["Sharan Raj VK", "CEO Voxels", "Voxels Digital Agency", "Sharan portfolio", "AI Engineer", "ML Engineer", "Software Engineer", "Bangalore developer", "Machine Learning portfolio", "Artificial Intelligence developer", "Sharan Raj", "Voice AI", "Voxels CEO"],
   authors: [{ name: "Sharan Raj VK", url: "https://sharan.voxels.in" }],
   creator: "Sharan Raj VK",
   publisher: "Sharan Raj VK",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Sharan Raj VK | AI & ML Engineer Portfolio",
-    description: "Explore Sharan Raj VK's professional portfolio - AI, Machine Learning & Software Engineering projects",
+    description: "Sharan Raj VK — AI & ML Engineer and CEO of Voxels Digital Agency. Explore AI, Machine Learning & Software Engineering projects.",
     url: "https://sharan.voxels.in",
     siteName: "Sharan Raj VK Portfolio",
     type: "website",
