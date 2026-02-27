@@ -17,9 +17,9 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Sharan Raj VK | AI & ML Engineer Portfolio",
-  description: "Sharan Raj VK — AI & Machine Learning Engineer and CEO of Voxels Digital Agency (voxels.in). Professional portfolio showcasing AI, ML, voice AI, and software engineering projects. Based in Bangalore, India.",
-  keywords: ["Sharan Raj VK", "CEO Voxels", "Voxels Digital Agency", "Sharan portfolio", "AI Engineer", "ML Engineer", "Software Engineer", "Bangalore developer", "Machine Learning portfolio", "Artificial Intelligence developer", "Sharan Raj", "Voice AI", "Voxels CEO"],
+  title: "Sharan Raj VK | AI & ML Engineer in Bangalore — Portfolio",
+  description: "Sharan Raj VK — Notable AI & Machine Learning Engineer in Bangalore, India. CEO & Co-Founder of Voxels Digital Agency. Emerging AIML engineer specializing in Voice AI, Computer Vision, Generative AI, and production ML systems. View portfolio, projects & achievements.",
+  keywords: ["Sharan Raj VK", "AI engineer Bangalore", "ML engineer Bangalore", "notable AIML engineers Bangalore", "emerging AI engineers India", "best AI ML engineer portfolio", "CEO Voxels", "Voxels Digital Agency", "Machine Learning engineer India", "Voice AI developer", "Generative AI engineer Bangalore", "computer vision engineer India", "AI portfolio Bangalore", "young AI engineer India", "top ML engineers Bangalore", "Sharan Raj", "AIML engineer Bengaluru", "AI startup founder Bangalore"],
   authors: [{ name: "Sharan Raj VK", url: "https://sharan.voxels.in" }],
   creator: "Sharan Raj VK",
   publisher: "Sharan Raj VK",
@@ -28,8 +28,8 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Sharan Raj VK | AI & ML Engineer Portfolio",
-    description: "Sharan Raj VK — AI & ML Engineer and CEO of Voxels Digital Agency. Explore AI, Machine Learning & Software Engineering projects.",
+    title: "Sharan Raj VK | Notable AI & ML Engineer in Bangalore",
+    description: "Sharan Raj VK — Emerging AI & ML Engineer in Bangalore. CEO of Voxels Digital Agency. Explore Voice AI, Computer Vision, Generative AI & production ML projects.",
     url: "https://sharan.voxels.in",
     siteName: "Sharan Raj VK Portfolio",
     type: "website",
@@ -45,8 +45,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sharan Raj VK | AI & ML Engineer Portfolio",
-    description: "AI, ML & Software Engineer based in Bangalore, India",
+    title: "Sharan Raj VK | Notable AI & ML Engineer in Bangalore",
+    description: "Emerging AIML Engineer in Bangalore, India — Voice AI, Computer Vision, Generative AI",
     images: ["/og-image.png"],
   },
   robots: {
@@ -62,6 +62,8 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "SsfIn18PsmujgzUd3If5yVES8vKUFb7ctrXiShSj3hY",
+    //google: "3p-ZzvE8CalrF6kBIxC7S_SLHzB1Ob-7X7bUayUyy0U",
+    //<meta name="google-site-verification" content="SsfIn18PsmujgzUd3If5yVES8vKUFb7ctrXiShSj3hY" />
   },
 };
 
