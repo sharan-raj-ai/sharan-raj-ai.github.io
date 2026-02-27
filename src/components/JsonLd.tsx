@@ -8,7 +8,7 @@ export default function JsonLd() {
         "url": "https://sharan.voxels.in",
         "image": "https://sharan.voxels.in/og-image.png",
         "jobTitle": "AI & Machine Learning Engineer",
-        "description": "Notable AI & Machine Learning Engineer in Bangalore, India. CEO & Co-Founder of Voxels Digital Agency. Specializes in Voice AI, Computer Vision, Generative AI, Large Language Models, and production ML systems.",
+        "description": "Emerging AI & Machine Learning Engineer based in Bangalore, India. CEO & Co-Founder of Voxels Digital Agency. Focused on building production-grade AI systems — from Voice AI agents and computer vision models to generative AI applications. Continuously learning, shipping, and contributing to the AI/ML community.",
         "email": "vksharanraj@gmail.com",
         "nationality": {
             "@type": "Country",
@@ -94,7 +94,7 @@ export default function JsonLd() {
         "@type": "WebSite",
         "name": "Sharan Raj VK — AI & ML Engineer Portfolio",
         "url": "https://sharan.voxels.in",
-        "description": "Portfolio of Sharan Raj VK — Notable AI & Machine Learning Engineer in Bangalore, India. Showcasing Voice AI, Computer Vision, Generative AI, and production ML projects.",
+        "description": "Portfolio of Sharan Raj VK — an emerging AI & Machine Learning engineer in Bangalore, India. Real-world projects in Voice AI, Computer Vision, Generative AI, and production ML systems.",
         "author": {
             "@type": "Person",
             "@id": "https://sharan.voxels.in/#person"
@@ -110,14 +110,14 @@ export default function JsonLd() {
         },
         "name": "Sharan Raj VK | AI & ML Engineer Portfolio",
         "url": "https://sharan.voxels.in",
-        "description": "Professional portfolio of Sharan Raj VK — an emerging AI & ML engineer based in Bangalore, India"
+        "description": "Professional portfolio of Sharan Raj VK — an emerging AI & ML engineer based in Bangalore, India, building production-grade intelligent systems"
     };
 
     const projectsSchema = {
         "@context": "https://schema.org",
         "@type": "ItemList",
         "name": "AI & ML Projects by Sharan Raj VK",
-        "description": "Production-grade AI and ML projects built by Sharan Raj VK, showcasing expertise in Voice AI, Computer Vision, Generative AI, and Multi-Modal AI",
+        "description": "Real-world AI and ML projects built by Sharan Raj VK — spanning Voice AI, Computer Vision, Generative AI, and Multi-Modal AI. Each project solves a real problem with production-grade engineering.",
         "itemListElement": [
             {
                 "@type": "ListItem",
