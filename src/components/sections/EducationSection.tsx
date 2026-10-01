@@ -65,7 +65,7 @@ export default function EducationSection() {
                     >
                         <div className="h-px w-12 bg-accent/40" />
                         <p className="text-xs font-semibold tracking-[0.3em] text-accent uppercase">
-                            The Foundation
+                             Education
                         </p>
                     </motion.div>
 
@@ -76,7 +76,7 @@ export default function EducationSection() {
                         transition={{ delay: 0.1 }}
                         className="text-6xl md:text-8xl font-serif text-foreground leading-none"
                     >
-                        Where It <br /><span className="text-accent italic">Began</span>
+                        Where I <br /><span className="text-accent italic">Studied</span>
                     </motion.h2>
 
                     <motion.p
@@ -86,8 +86,7 @@ export default function EducationSection() {
                         transition={{ delay: 0.2 }}
                         className="text-muted text-lg mt-6 max-w-2xl"
                     >
-                        A formal education in AI/ML combined with world-class online certifications
-                        laid the groundwork for building production-grade intelligent systems.
+                        A B.E. in AI/ML from Bangalore, a Stanford Machine Learning Specialization, and the science foundation that started it all.
                     </motion.p>
                 </div>
 

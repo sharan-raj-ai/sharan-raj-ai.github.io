@@ -124,6 +124,18 @@ export default function JsonLd() {
                 "position": 1,
                 "item": {
                     "@type": "SoftwareApplication",
+                    "name": "Enterprise Voice AI Platform (AIPBX)",
+                    "description": "A production-grade agentic telephony platform deployed at *astTECS, built on the LiveKit Agents framework. Replaced a state-machine + Rasa PBX with a fully agentic voice AI. Self-hosted NVIDIA Parakeet STT, Svara TTS, Ollama LLM, LiveKit SIP trunk, LiveKit Egress recording. 377 calls processed with 61% transfer success rate and 51s average handle time. Post-call analysis extracts sentiment, disposition, intent, and AI summary per call in a single LLM inference. CDR access gated by caller extension, reports delivered via SMTP. Langfuse observability with per-call traces.",
+                    "applicationCategory": "Enterprise Voice AI",
+                    "author": { "@type": "Person", "name": "Sharan Raj VK" },
+                    "url": "https://timestech.in/asttecs-launches-next-gen-pa-speakers-with-mcp-server-for-agentic-ai-giving-ai-a-real-voice/"
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@type": "SoftwareApplication",
                     "name": "Real-Time Voice AI Agent",
                     "description": "Production-grade voice AI agent with LiveKit WebRTC, Sarvam STT/TTS, Groq LLM, and Langfuse observability",
                     "applicationCategory": "Conversational AI",

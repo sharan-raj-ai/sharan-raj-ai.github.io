@@ -1,0 +1,15 @@
+Call ID : call_20260414_091532_847291
+Room    : call-_5050_lk8xm9pq
+Caller  : Sharan (5050)
+Started : 2026-04-14 09:15:32
+============================================================
+[09:15:33] Agent: Good morning! You've reached astTECS. This is Stella, your AI receptionist. How may I assist you today?
+[09:15:41] User: Hi Stella, can you connect me to someone from the Technical support team?
+[09:15:44] Agent: Of course, let me look that up for you.
+[09:15:45] System: [TOOL: lookup_contact] query="Technical" dept="Technical"
+[09:15:46] Agent: I found Rajesh Kumar in the Technical Support department at extension 6109. Shall I connect you to him?
+[09:15:52] User: Yes please, go ahead.
+[09:15:53] Agent: Connecting you to Rajesh Kumar now. Have a great conversation!
+[09:15:54] System: [TRANSFER_INITIATED] Dialling Rajesh Kumar (ext 6109)...
+[09:16:01] System: [TRANSFER_CONNECTED] Rajesh Kumar (ext 6109) answered - both parties bridged. Agent exiting.
+============================================================

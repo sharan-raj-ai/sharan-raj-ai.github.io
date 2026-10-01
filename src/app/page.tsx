@@ -15,6 +15,8 @@ import QuoteSection from "@/components/sections/QuoteSection";
 import EducationSection from "@/components/sections/EducationSection";
 import HorizontalExperience from "@/components/sections/HorizontalExperience";
 import AchievementsSection from "@/components/sections/AchievementsSection";
+import FeaturedProject from "@/components/sections/FeaturedProject";
+import CallShowcase from "@/components/sections/CallShowcase";
 import SkillsSection from "@/components/sections/SkillsSection";
 import ContactSection from "@/components/sections/ContactSection";
 // import SignatureFooter from "@/components/ui/SignatureFooter";
@@ -46,10 +48,16 @@ export default function Home() {
         <HorizontalExperience />
       </div>
 
-      {/* Achievements Section - The Impact */}
+      {/* Achievements Section */}
       <AchievementsSection />
 
-      {/* Skills Section - The Arsenal */}
+      {/* Featured Production Project */}
+      <FeaturedProject />
+
+      {/* Call Recording, Transcript & Post-Call AI Analysis */}
+      <CallShowcase />
+
+      {/* Skills Section */}
       <div id="skills">
         <SkillsSection />
       </div>

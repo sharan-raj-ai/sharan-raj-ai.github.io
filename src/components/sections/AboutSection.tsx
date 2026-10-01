@@ -14,7 +14,7 @@ export default function AboutSection() {
                     transition={{ duration: 0.8 }}
                 >
                     <h2 className="text-5xl md:text-7xl font-serif font-light leading-tight text-foreground">
-                        Designing <br /> <span className="italic text-accent">Digital</span> <br /> Dreams.
+                        Building <br /> <span className="italic text-accent">AI</span> <br /> Systems.
                     </h2>
                 </motion.div>
 
@@ -27,12 +27,10 @@ export default function AboutSection() {
                     className="space-y-6 text-lg text-muted md:pl-10"
                 >
                     <p>
-                        I am a multidisciplinary designer and developer obsessed with the finer details.
-                        My work exists at the intersection of logic and aesthetics, where code becomes canvas.
+                        I specialize in AI and machine learning engineering with a focus on systems that ship to production. My background spans voice AI, computer vision, generative AI, and the backend infrastructure that connects them.
                     </p>
                     <p>
-                        With a background in both traditional graphic design and modern web technologies,
-                        I craft experiences that are not just functional, but emotional.
+                        Currently building at <span className="text-foreground/80 font-medium">*astTECS</span> and co-running <span className="text-foreground/80 font-medium">Voxels Digital Agency</span>. I care about clean architecture, measurable outcomes, and AI that does something useful.
                     </p>
                 </motion.div>
             </div>

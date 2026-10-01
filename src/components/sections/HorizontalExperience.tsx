@@ -11,24 +11,21 @@ const experiences = [
     role: "AI Software Engineer",
     company: "*astTECS Unified Communication PVT LTD",
     period: "Nov 2024 - Present",
-    desc: "Architected production-grade multi-language voicebot handling 90 concurrent calls, achieving 40-50% workforce reduction. Pioneered India's first MCP server integration with IP-PBX for agentic AI announcements. Built production LangChain agents as the brain for multiple systems, collaborating with the telephony team to integrate with SIP servers. Deployed self-hosted Langfuse for observability and evaluation of agentic systems with per-call traces.",
-    quote: "Innovation distinguishes between a leader and a follower."
+    desc: "Architected a production-grade multi-language voicebot handling 90 concurrent calls, achieving 40-50% workforce reduction. Built India's first MCP server integration with IP-PBX for agentic AI announcements. Designed LangChain agents as the core decision layer for multiple systems, integrated with SIP servers, and deployed self-hosted Langfuse for per-call observability and evaluation.",
   },
   {
     id: "02",
     role: "AI Trainer",
     company: "Sambhav Foundation",
     period: "Aug 2024 - Nov 2024",
-    desc: "Designed comprehensive AI/ML curriculum and mentored aspiring engineers. Translated complex neural network concepts into accessible learning experiences that empowered the next generation of AI practitioners.",
-    quote: "Teaching is the one profession that creates all other professions."
+    desc: "Designed an AI/ML curriculum and mentored aspiring engineers. Covered supervised learning, neural networks, and practical model training. Made complex concepts approachable for students with no prior background in the field.",
   },
   {
     id: "03",
     role: "AI Internship",
     company: "Codsoft",
     period: "Aug 2023 - Sep 2023",
-    desc: "Built foundational ML projects including classification models and data pipelines. First exposure to production deployment workflows and collaborative software development practices.",
-    quote: "Every expert was once a beginner."
+    desc: "Built foundational ML projects including classification models and data pipelines. First hands-on exposure to production deployment workflows and collaborative software development.",
   }
 ];
 
@@ -63,13 +60,13 @@ export default function HorizontalExperience() {
             <div className="flex-shrink-0 w-[450px] md:w-[500px] relative z-20 pr-12 flex flex-col justify-center">
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-12 h-[2px] bg-accent" />
-                <span className="text-accent uppercase tracking-widest text-sm font-medium">Powering Up</span>
+                <span className="text-accent uppercase tracking-widest text-sm font-medium">Experience</span>
               </div>
               <h2 className="text-6xl md:text-8xl font-serif text-foreground leading-none mb-6">
                 Career <br /> <span className="text-accent italic">Journey</span>
               </h2>
               <p className="text-muted text-xl max-w-sm">
-                A high-voltage journey through AI innovation.
+                Three roles. Each one building on the last.
               </p>
             </div>
 
@@ -101,7 +98,7 @@ export default function HorizontalExperience() {
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-4">
             <div className="w-8 h-[2px] bg-accent" />
-            <span className="text-accent uppercase tracking-widest text-xs font-medium">Powering Up</span>
+            <span className="text-accent uppercase tracking-widest text-xs font-medium">Experience</span>
           </div>
           <h2 className="text-5xl font-serif text-foreground leading-none mb-4">
             Career <br /> <span className="text-accent italic">Circuit</span>
@@ -130,15 +127,9 @@ export default function HorizontalExperience() {
                 </h3>
                 <p className="text-lg text-accent mb-4 font-light italic">{exp.company}</p>
 
-                <p className="text-sm text-muted/90 leading-relaxed mb-6">
+                <p className="text-sm text-muted/90 leading-relaxed">
                   {exp.desc}
                 </p>
-
-                <div className="pt-6 border-t border-accent/10">
-                  <p className="text-xs italic text-muted/70 font-medium">
-                    "{exp.quote}"
-                  </p>
-                </div>
               </div>
             </div>
           ))}
@@ -238,14 +229,8 @@ function ExperienceCard({ exp, index, scrollYProgress, isLast }: { exp: any, ind
             </h3>
             <p className="text-xl md:text-2xl text-accent mb-8 font-light italic">{exp.company}</p>
 
-            <p className="text-base md:text-lg text-muted/90 leading-relaxed mb-4">
+            <p className="text-base md:text-lg text-muted/90 leading-relaxed">
               {exp.desc}
-            </p>
-          </div>
-
-          <div className="pt-10 border-t border-accent/10 relative z-10">
-            <p className="text-sm md:text-base italic text-muted/70 font-medium leading-relaxed">
-              "{exp.quote}"
             </p>
           </div>
 

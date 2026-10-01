@@ -83,8 +83,8 @@ export default function ContactSection() {
                             transition={{ delay: 0.1 }}
                             className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-serif font-light mb-6 leading-tight"
                         >
-                            Let's Build <br />
-                            <span className="italic text-accent">Something Great</span>
+                            Let's Work <br />
+                            <span className="italic text-accent">Together</span>
                         </motion.h2>
 
                         <motion.p
@@ -94,7 +94,7 @@ export default function ContactSection() {
                             transition={{ delay: 0.2 }}
                             className="text-base sm:text-lg text-foreground/60 max-w-2xl mx-auto px-2"
                         >
-                            Whether you need AI integration, custom ML models, or technical consultation. I'm here to help transform your ideas into reality.
+                            Whether you need AI integration, custom ML models, or technical consultation, reach out and I'll get back to you.
                         </motion.p>
                     </div>
 
